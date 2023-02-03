@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "projectPhotos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Branding",
+        "OnlineMarketing ",
+        "VideoProduction",
+        "DesktopMobileDevelopment",
+        "WebDevelopment"
+      ],
+      "required": true
+    },
+    "videoDataJson": {
+      "type": "json"
+    }
+  }
+}
