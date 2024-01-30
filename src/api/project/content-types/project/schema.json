@@ -38,8 +38,10 @@
       ],
       "required": true
     },
-    "videoDataJson": {
-      "type": "json"
+    "URL": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.video-url"
     }
   }
 }

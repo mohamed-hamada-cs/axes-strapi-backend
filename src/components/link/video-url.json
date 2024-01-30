@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_link_video_urls",
+  "info": {
+    "displayName": "Video URL",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
