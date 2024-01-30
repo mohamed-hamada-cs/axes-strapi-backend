@@ -33,8 +33,10 @@
         "Branding",
         "OnlineMarketing",
         "VideoProduction",
+        "Photography",
         "DesktopMobileDevelopment",
-        "WebDevelopment"
+        "WebDevelopment",
+        "AdvertisingPublications"
       ],
       "required": true
     },

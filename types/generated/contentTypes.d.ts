@@ -413,8 +413,10 @@ export interface ApiProjectProject extends Schema.CollectionType {
         'Branding',
         'OnlineMarketing',
         'VideoProduction',
+        'Photography',
         'DesktopMobileDevelopment',
-        'WebDevelopment'
+        'WebDevelopment',
+        'AdvertisingPublications'
       ]
     > &
       Attribute.Required;
