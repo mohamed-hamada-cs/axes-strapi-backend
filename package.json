@@ -16,6 +16,7 @@
     "@strapi/strapi": "^4.16.2",
     "better-sqlite3": "7.4.6",
     "express": "^4.18.2",
+    "npm": "^10.4.0",
     "pg": "^8.9.0",
     "pg-connection-string": "^2.5.0",
     "react": "^18.2.0",
@@ -30,8 +31,8 @@
     "uuid": "f9af8bb6-6a59-4b1c-b03a-fc8eb8447815"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "license": "MIT"
 }
